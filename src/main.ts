@@ -1,7 +1,6 @@
 import { IFilms, IFilmsResult } from './interfaces/IFilmen';
 import { IPeople, IPeopleResult } from './interfaces/IPeople';
 import { IPlanets, IPlanetsResult } from './interfaces/IPlanets';
-import './style.css'
 
 const navigationFilmen = document.querySelector(".navigation__filmen") as HTMLElement;
 const navigationPlaneten = document.querySelector(".navigation__planeten") as HTMLElement;
